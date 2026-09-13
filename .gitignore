@@ -147,7 +147,7 @@ temp/
 # ============================================================
 dist/
 build/
-lib/
+# lib/
 
 # ============================================================
 # Generated files
@@ -155,6 +155,13 @@ lib/
 .generated/
 generated/
 .turbo/
+
+# Local AI tooling
+apps/web/.agents/
+apps/web/.claude/
+apps/web/.cursor/
+apps/web/.devin/
+apps/web/.windsurf/
 
 # ============================================================
 # Optional: local certificates / TLS
