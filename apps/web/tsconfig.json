@@ -2,8 +2,14 @@
   "extends": "@event-management-nextjs/tsconfig/nextjs.json",
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./*"],
+    },
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ]
   },
   "include": [
     "next-env.d.ts",
